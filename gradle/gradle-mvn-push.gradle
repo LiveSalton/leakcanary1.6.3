@@ -27,8 +27,7 @@ afterEvaluate { project ->
     uploadArchives {
         repositories {
             mavenDeployer {
-                //提交到珍爱本地maven仓库：
-                repository(url: "http://nexus.zhenai.com/content/repositories/android-release/") {
+                repository(url: "https://repo.rdc.aliyun.com/repository/43441-release-5ZHLZs/") {
                     authentication(userName: "6XCT1E", password: "XldVM4G6IO")
                 }
 
